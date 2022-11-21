@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="container-fluid"
+>
+  <div
+    className="row"
+  >
+    <header
+      className="header-container"
+    >
+      <div
+        className="container-fluid"
+      >
+        <h1>
+          Git Repositories Search App
+        </h1>
+      </div>
+    </header>
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="container"
+    >
+      <form
+        className=""
+      >
+        <div
+          className="justify-content-md-center row row-cols-md-4"
+        >
+          <div
+            className="col-md-3"
+          >
+            <div>
+              <input
+                className="form-control"
+                id="search"
+                name="search"
+                onChange={[Function]}
+                type="text"
+              />
+            </div>
+          </div>
+          <div
+            className="col"
+          >
+            <button
+              className="btn btn-primary"
+              disabled={false}
+              onClick={[Function]}
+              type="submit"
+            >
+              Search
+            </button>
+          </div>
+        </div>
+      </form>
+      <div>
+        <div
+          className="container"
+        >
+          <h2>
+            Git repositories
+          </h2>
+          <div
+            className="row"
+          >
+            <div
+              className="col-md-2"
+            >
+              <div
+                className="list-group list-group-flush"
+                onKeyDown={[Function]}
+              >
+                <h4>
+                  <img
+                    alt="Github logo"
+                    className="d-inline-block align-top"
+                    height="30"
+                    src="./images/GitHub.png"
+                  />
+                   GitHub Users
+                </h4>
+                <div
+                  className="scrollTogg1 overflow-auto"
+                  id="xpCol"
+                />
+              </div>
+              <br />
+              <div
+                className="list-group list-group-flush"
+                onKeyDown={[Function]}
+              >
+                <h4>
+                  <img
+                    alt="Gitlab logo"
+                    className="d-inline-block align-top"
+                    height="30"
+                    src="./images/gitlab.png"
+                  />
+                   GitLab Users
+                </h4>
+                <div
+                  className="scrollTogg1 overflow-auto"
+                  id="xpCol"
+                />
+              </div>
+            </div>
+            <div
+              className="col-md-10"
+            >
+              <div
+                className="row"
+              >
+                <div
+                  className="bio col-md-3"
+                />
+                <div
+                  className="repo col"
+                >
+                  <h3>
+                    Welcome Git Repository Search App
+                  </h3>
+                  <p>
+                    Search your for users on both Github and GitLab
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

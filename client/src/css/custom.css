@@ -1,0 +1,33 @@
+.prolink {
+    text-decoration: none;
+}
+
+.bio{
+    text-align: center;
+}
+
+.scrollTogg1 {
+    -ms-overflow-style: none;  
+    scrollbar-width: none;  
+}
+
+.scrollTogg1::-webkit-scrollbar {
+    display: none;
+}
+
+#xpCol {
+    max-height: 50vh;
+    
+}
+
+.header-container{
+        background-color: #0d6efd;
+        color: white;
+        padding: 0.5em; 
+        margin-bottom: 10px;
+        text-align: center;
+}
+
+.subtext{
+    color: rgb(115, 115, 116);
+}
